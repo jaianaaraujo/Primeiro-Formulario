@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- GOOGLE FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet"><!-- TITULO -->
+<title>Formulário | Jaiana</title>
+</head>
+<body> <!-- INICIO DO BODY -->
+    <!-- DIV CLASS BOX -->
+    <div class="box">
+        
+        
+<!-- INICIDO DO FORM -->
+    <form action="">
+     <fieldset> <!-- Cria a caixa para colocar onde contém as informações do formulário e a legenda entre o fechamento da caixa -->
+                
+     <legend ></strong>Formulário</strong></legend>
+   <!-- LEGEND= é a legenda que colocamos no agrupamento -->
+     <br>
+   <!-- DIV CLASS INPUTBOX E CLASS INPUTUSER -->
+ <div class="inputBox">
+<input type="text"  name="nome" id="nome" class="inputUser" required>
+<label for="nome" class="labelInput"> Nome Completo: </label>
+</div>
+<br><br>
+<!-- EMAIL -->
+   <div class="inputBox">
+    <input type="email"  name="email" id="email" class="inputUser" required>
+    <label for="email" class="labelInput"> Email: </label>
+</div>
+<br><br>
+    <!-- TELEFONE -->
+   <div class="inputBox">
+    <input type="text"  name="telefone" id="telefone" class="inputUser" required>
+    <label for="telefone" class="labelInput"> Telefone: </label>
+</div>
+<br><br>
+<!-- OPÇÕES DE SEXO -->
+<!-- SEXO-PARÁGRAFO  -->
+<P>Sexo:</P>
+
+<!-- ID FEMININO -->
+<input type="radio"  id="feminino" name="genero" value="feminino" required>
+<!-- O input type="radio" que dará a opção arrendondada -->
+<label for="feminino">Feminino</label>
+<br>
+<!-- ID MASCULINO -->
+<input type="radio" id="masculino" name="genero" value="masculino" required>
+<label for="masculino">Masculino</label>
+<br>
+<!-- ID OUTROS -->
+<input type="radio" id="outros" name="genero" value="outros" required>
+<label for="outros">Outros</label>
+<br><br>
+<!-- DATA -->
+<div class="inputBox">
+     <label for="dataNascimento" ><strong>Data de Nascimento: </strong> </label>
+     <input type="date"  name="dataNascimento" id="dataNascimento"  required>
+   </div>
+   <br><br>
+<!-- CIDADE -->
+<div class="inputBox">
+<input type="text"  name="cidade" id="cidade" class="inputUser" required>
+<label for="cidade" class="labelInput"> Cidade: </label>
+</div>
+<br><br>
+<!-- ESTADO -->
+<div class="inputBox">
+    <input type="text"  name="estado" id="estado" class="inputUser" required>
+    <label for="estado" class="labelInput"> Estado: </label>
+</div>
+<br><br>
+    <!-- ENDEREÇO -->
+<div class="inputBox">
+    <input type="text"  name="rua" id="rua" class="inputUser" required>
+    <label for="rua" class="labelInput"> Rua: </label>
+</div>
+<br><br>
+
+           <!-- BOTÃO ENVIAR - SUBMIT -->
+<div class="botao">
+
+    <button type="submit"> Enviar</button>
+
+   
+</div>    
+            </fieldset>
+ 
+        </form>
+    </div>
+    
+   
+</body>
+</html>
